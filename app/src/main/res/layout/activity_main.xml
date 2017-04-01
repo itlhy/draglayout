@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lhy.draglayout.view.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drag_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+    <include layout="@layout/layout_left" />
+
+    <include layout="@layout/layout_main" />
+</com.lhy.draglayout.view.DragLayout>
